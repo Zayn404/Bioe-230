@@ -121,9 +121,10 @@ Chlamydia trachomatis D/UW-3/CX
 Helicobacter pylori 26695
 Helicobacter pylori J99
 Pasteurella multocida subsp. multocida str. Pm70
-# Numerical Outputs
+# Numerical Output- CC
 [almualzm@login509-02-l data]$ tail -n +2 data_summary.tsv | cut -f 1 | grep -i "c.*c" | sort | uniq | wc -l
 >> 7
+# Numerical Output- CC AND COCCUS
 [almualzm@login509-02-l data]$ tail -n +2 data_summary.tsv | cut -f 1 | grep -i "c.*c" | grep -vi "coccus" | sort | uniq | wc -l
 >> 5
 ## Q5
