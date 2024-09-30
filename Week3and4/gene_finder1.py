@@ -15,12 +15,10 @@ def find_orfs(sequence):
     "Find all ORFs in a given DNA sequence."
     start_codon = "ATG"
     stop_codons = ["TAA", "TAG", "TGA"]
-    orfs = []
-    
-    # Check three different reading frames
-    for frame in range(3): #iterates over the three possible reading frames
+    proteins = set()
+    for frame in range(3):
         start_positions = []
-        for location in range(frame, len(sequence), 3): #iterates through the seq in steps of codons
+        for location in range(frame, len(sequence), 3):
             codon = sequence[location: location + 3]
             if codon == start_codon:
                 start_positions.append(location)
@@ -28,10 +26,11 @@ def find_orfs(sequence):
                 while start_positions:
                     start_pos = start_positions.pop(0)
                     orf = sequence[start_pos:location + 3]
-                    if orf not in orfs:  # Avoid duplicates
-                        orfs.append(orf)
+                    protein_seq = str(Seq(orf).translate(to_stop=True))
+                    if protein_seq not in proteins:  # Avoid duplicates
+                        proteins.add(protein_seq)
     
-    return orfs
+    return proteins
 
 def get_reverse_complement(sequence):
     "Return the reverse complement of the sequence."
