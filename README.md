@@ -1,4 +1,4 @@
-# Bioe-230
+## Linking to GitHub
 [almualzm@login509-02-l ~]$ cd HW3
 [almualzm@login509-02-l HW3]$ git clone https://github.com/Zayn404/Bioe-230.git
 Cloning into 'Bioe-230'...
