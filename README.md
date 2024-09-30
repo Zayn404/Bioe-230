@@ -20,6 +20,7 @@ Bioe-230
 [almualzm@login509-02-l HW3]$ cd Bioe-230
 [almualzm@login509-02-l Bioe-230]$ ls
 ncbi_dataset.tsv  ncbi_dataset.zip  README.md
+## Q2
 [almualzm@login509-02-l Bioe-230]$ unzip ncbi_dataset.zip
 Archive:  ncbi_dataset.zip
 replace README.md? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
