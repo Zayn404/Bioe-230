@@ -985,3 +985,12 @@ Finding genes in sequence #1 (1229853 bp)...done!
 ../ncbi_dataset/data/GCF_000008565.1/GCF_000008565.1_ASM856v1_genomic.gff 3248
 ../ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic.gff 3594
 ../ncbi_dataset/data/GCF_000006745.1/GCF_000006745.1_ASM674v1_genomic.gff 3594
+
+## Question 5: ##
+[almualzm@login509-02-r Week4and5]$ emacs Q5.sh
+[almualzm@login509-02-r Week4and5]$ bash Q5.sh
+aaaT
+aaeA
+aaeA_1
+aaeA_2
+aaeB
