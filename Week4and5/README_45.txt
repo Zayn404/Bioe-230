@@ -45,3 +45,464 @@ cds_count=$(grep -c "CDS" "$gff_file")
 echo "File: $gff_file, CDS Count: $cds_count"
 
 ## Question 3: ##
+[almualzm@login509-02-r Week4and5]$ emacs Q3.sh
+[almualzm@login509-02-r Week4and5]$ bash Q3.sh
+Loading module for PRODIGAL v2.6.3
+PRODIGAL v2.6.3 is now loaded
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...3294955 bp seq created, 57.22 pct GC
+Locating all potential starts and stops...213618 nodes
+Looking for GC bias in different frames...frame bias scores: 0.83 0.28 1.89
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2117144 bp)...done!
+Finding genes in sequence #2 (1177787 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1860725 bp seq created, 46.25 pct GC
+Locating all potential starts and stops...92480 nodes
+Looking for GC bias in different frames...frame bias scores: 1.27 0.19 1.54
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1860725 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...3284204 bp seq created, 66.61 pct GC
+Locating all potential starts and stops...191980 nodes
+Looking for GC bias in different frames...frame bias scores: 0.73 0.11 2.16
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2648638 bp)...done!
+Finding genes in sequence #2 (412348 bp)...done!
+Finding genes in sequence #3 (45704 bp)...done!
+Finding genes in sequence #4 (177466 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1590815 bp seq created, 43.30 pct GC
+Locating all potential starts and stops...51125 nodes
+Looking for GC bias in different frames...frame bias scores: 1.67 0.24 1.09
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1551335 bp)...done!
+Finding genes in sequence #2 (39456 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1042519 bp seq created, 41.31 pct GC
+Locating all potential starts and stops...37422 nodes
+Looking for GC bias in different frames...frame bias scores: 2.60 0.20 0.20
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1042519 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...3294955 bp seq created, 57.22 pct GC
+Locating all potential starts and stops...213618 nodes
+Looking for GC bias in different frames...frame bias scores: 0.83 0.28 1.89
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2117144 bp)...done!
+Finding genes in sequence #2 (1177787 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1860725 bp seq created, 46.25 pct GC
+Locating all potential starts and stops...92480 nodes
+Looking for GC bias in different frames...frame bias scores: 1.27 0.19 1.54
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1860725 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...3284204 bp seq created, 66.61 pct GC
+Locating all potential starts and stops...191980 nodes
+Looking for GC bias in different frames...frame bias scores: 0.73 0.11 2.16
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2648638 bp)...done!
+Finding genes in sequence #2 (412348 bp)...done!
+Finding genes in sequence #3 (45704 bp)...done!
+Finding genes in sequence #4 (177466 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1590815 bp seq created, 43.30 pct GC
+Locating all potential starts and stops...51125 nodes
+Looking for GC bias in different frames...frame bias scores: 1.67 0.24 1.09
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1551335 bp)...done!
+Finding genes in sequence #2 (39456 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1042519 bp seq created, 41.31 pct GC
+Locating all potential starts and stops...37422 nodes
+Looking for GC bias in different frames...frame bias scores: 2.60 0.20 0.20
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1042519 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...4033488 bp seq created, 47.49 pct GC
+Locating all potential starts and stops...219838 nodes
+Looking for GC bias in different frames...frame bias scores: 2.21 0.16 0.62
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2961149 bp)...done!
+Finding genes in sequence #2 (1072315 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...2257487 bp seq created, 40.40 pct GC
+Locating all potential starts and stops...96476 nodes
+Looking for GC bias in different frames...frame bias scores: 2.65 0.14 0.21
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2257487 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...2365589 bp seq created, 35.33 pct GC
+Locating all potential starts and stops...86378 nodes
+Looking for GC bias in different frames...frame bias scores: 2.54 0.16 0.29
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2365589 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1138011 bp seq created, 52.77 pct GC
+Locating all potential starts and stops...73375 nodes
+Looking for GC bias in different frames...frame bias scores: 2.03 0.23 0.74
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1138011 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1643831 bp seq created, 39.19 pct GC
+Locating all potential starts and stops...71171 nodes
+Looking for GC bias in different frames...frame bias scores: 1.58 0.14 1.28
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1643831 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...4033488 bp seq created, 47.49 pct GC
+Locating all potential starts and stops...219838 nodes
+Looking for GC bias in different frames...frame bias scores: 2.21 0.16 0.62
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2961149 bp)...done!
+Finding genes in sequence #2 (1072315 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...2257487 bp seq created, 40.40 pct GC
+Locating all potential starts and stops...96476 nodes
+Looking for GC bias in different frames...frame bias scores: 2.65 0.14 0.21
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2257487 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...2365589 bp seq created, 35.33 pct GC
+Locating all potential starts and stops...86378 nodes
+Looking for GC bias in different frames...frame bias scores: 2.54 0.16 0.29
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (2365589 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1138011 bp seq created, 52.77 pct GC
+Locating all potential starts and stops...73375 nodes
+Looking for GC bias in different frames...frame bias scores: 2.03 0.23 0.74
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1138011 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1643831 bp seq created, 39.19 pct GC
+Locating all potential starts and stops...71171 nodes
+Looking for GC bias in different frames...frame bias scores: 1.58 0.14 1.28
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1643831 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1667867 bp seq created, 38.87 pct GC
+Locating all potential starts and stops...71998 nodes
+Looking for GC bias in different frames...frame bias scores: 1.71 0.15 1.14
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1667867 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1230230 bp seq created, 40.58 pct GC
+Locating all potential starts and stops...40543 nodes
+Looking for GC bias in different frames...frame bias scores: 2.57 0.21 0.22
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1230230 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1830138 bp seq created, 38.15 pct GC
+Locating all potential starts and stops...72389 nodes
+Looking for GC bias in different frames...frame bias scores: 2.68 0.13 0.19
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1830138 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1234409 bp seq created, 40.57 pct GC
+Locating all potential starts and stops...40703 nodes
+Looking for GC bias in different frames...frame bias scores: 2.57 0.21 0.22
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1229853 bp)...done!
+Finding genes in sequence #2 (4532 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1667867 bp seq created, 38.87 pct GC
+Locating all potential starts and stops...71998 nodes
+Looking for GC bias in different frames...frame bias scores: 1.71 0.15 1.14
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1667867 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1230230 bp seq created, 40.58 pct GC
+Locating all potential starts and stops...40543 nodes
+Looking for GC bias in different frames...frame bias scores: 2.57 0.21 0.22
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1230230 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1830138 bp seq created, 38.15 pct GC
+Locating all potential starts and stops...72389 nodes
+Looking for GC bias in different frames...frame bias scores: 2.68 0.13 0.19
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1830138 bp)...done!
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...1229853 bp seq created, 40.57 pct GC
+Locating all potential starts and stops...40520 nodes
+Looking for GC bias in different frames...frame bias scores: 2.57 0.21 0.22
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (1229853 bp)...done!
+>> ../ncbi_dataset/data/GCF_000006745.1/GCF_000006745.1_ASM674v1_genomic.gff 3594
+
+# bash file code:
+File Edit Options Buffers Tools Sh-Script Help
+#!/bin/bash
+
+# Load the Prodigal module
+module load prodigal
+
+find ../ncbi_dataset/data/ -name "*.fna" -type f | while read -r fna_file; do
+    # Generate output GFF file path
+    gff_file="${fna_file%.fna}.gff"
+
+    # Run Prodigal to generate the GFF file
+    prodigal -i "$fna_file" -o "$gff_file"
+
+    # Count the number of CDS entries in the GFF file
+    cds_count=$(grep -c "CDS" "$gff_file")
+
+    # Print the GFF file path and the CDS count
+    echo "$gff_file $cds_count"
+done | sort -k2 -n | tail -n 1
+
+## Question 4: ##
