@@ -88,8 +88,8 @@ GCA_000008605.1             GCF_000008525.1
 [almualzm@login509-02-l data]$ cat data_summary.tsv | awk -F '\t' 'NR > 1 {print $10}' | sort -n | head -n 1
 >> 1042519
 # Outputting Only the Genome Sizes- Largest
-[almualzm@login509-02-l data]$ cat data_summary.tsv | awk -F '\t' '{print $10}' | sort -n | tail -n 1
->> 2961149
+[almualzm@login509-02-r data]$ tail -n +2 size.tsv | sort -t$'\t' -k2 -n | tail -n 1 | cut -f 2
+>> 4033464
 
 ## Q4
 # Checking the names to verify the numerical output:
