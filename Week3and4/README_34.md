@@ -76,3 +76,9 @@ usage: git add [<options>] [--] <pathspec>...
     --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
 
     
+#Q5
+[almualzm@login509-02-l Week3and4]$ cp gene_finder1.py genefinder2.py
+[almualzm@login509-02-l Week3and4]$ emacs gene_finder2.py
+
+#Q6
+[almualzm@login509-02-l Week3and4]$ emacs gene_finder3.py
