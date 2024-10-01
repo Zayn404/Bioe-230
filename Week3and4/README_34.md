@@ -1,6 +1,6 @@
 Shell :
 
-#Q1 and Q2
+## Q1 and Q2
  This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
 
 from argparse import ArgumentParser #Used to parse command-line arguments.
@@ -64,7 +64,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-#Q3
+## Q3
 [almualzm@login509-02-l Week3and4]$ nano gene_finder1.py
 [almualzm@login509-02-l Week3and4]$ emacs rosalind_input.txt
 [almualzm@login509-02-l Week3and4]$ python gene_finder1.py -f rosalind_input.txt
@@ -92,7 +92,7 @@ MSSPYPDPGQATVHAALRYC
 MALTSLAKRELLCPIVVVMYYDTSKSPREGCQAPN
 MLRATFCA
 
-#Q4
+## Q4
 [almualzm@login509-02-l Week3and4]$ emacs Quesstion4.sh
 [almualzm@login509-02-l Week3and4]$ bash Quesstion4.sh
 ../ncbi_dataset/data/GCA_000007125.1/GCA_000007125.1_ASM712v1_genomic.fna
@@ -140,7 +140,7 @@ usage: git add [<options>] [--] <pathspec>...
     --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
 
     
-#Q5
+## Q5
 [almualzm@login509-02-l Week3and4]$ cp gene_finder1.py genefinder2.py
 [almualzm@login509-02-l Week3and4]$ emacs gene_finder2.py
 
@@ -218,5 +218,86 @@ def main():
 if __name__ == "__main__":
     main()  # Call the main function to execute the program.
 
-#Q6
+## Q6
 [almualzm@login509-02-l Week3and4]$ emacs gene_finder3.py
+# This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
+
+from argparse import ArgumentParser  # Used to parse command-line arguments.
+from Bio import SeqIO  # Used to read and write sequence data in various formats, including FASTA.
+from Bio.Seq import Seq  # Sequence manipulation, including getting the reverse complement.
+
+def get_sequences(file_path):
+    """Read the FASTA file and return a dictionary of sequences."""
+    sequences = {}  # Store Seq data
+    for record in SeqIO.parse(file_path, "fasta"):  # Read the FASTA file.
+        # Retrieves the sequence ID and the sequence itself, converting the sequence to a string.
+        sequences[record.id] = str(record.seq)  
+    return sequences
+
+def find_orfs(sequence, min_length, rbs_length):
+    """Find all ORFs in a given DNA sequence and filter by length and presence of RBS."""
+    start_codon = "ATG"  # Start codon for translation.
+    stop_codons = ["TAA", "TAG", "TGA"]  # List of stop codons.
+    rbs_sequence = "AGGAGG"  # Shine-Dalgarno sequence to look for as RBS.
+    proteins = set()  # Set to store unique protein sequences.
+
+    # Check three different reading frames.
+    for frame in range(3):
+        start_positions = []  # List to store positions of start codons.
+        for location in range(frame, len(sequence), 3):  # Iterate through the sequence in codons.
+            codon = sequence[location: location + 3]  # Get the current codon.
+            if codon == start_codon:
+                # Record the position of the start codon.
+                start_positions.append(location)  
+            elif codon in stop_codons:
+                # If a stop codon is found, extract ORFs from start positions.
+                while start_positions:
+                    start_pos = start_positions.pop(0)  # Get the first start position.
+                    orf = sequence[start_pos:location + 3]  # Extract the ORF.
+                    # Calculate the length in codons (divided by 3).
+                    orf_length = len(orf) // 3  
+                    
+                    # Check if ORF meets the length requirement.
+                    if orf_length >= min_length:
+                        # Check for RBS in the upstream sequence.
+                        upstream_start = max(0, start_pos - rbs_length)  # Ensure not to go out of bounds.
+                        upstream_sequence = sequence[upstream_start:start_pos]
+                        if rbs_sequence in upstream_sequence:  # Check if RBS is present.
+                            protein_seq = str(Seq(orf).translate(to_stop=True))  # Translate ORF to protein sequence.
+                            if protein_seq not in proteins:  # Avoid duplicates.
+                                proteins.add(protein_seq)  # Add the unique protein sequence to the set.
+    
+    return proteins  # Return the set of unique proteins.
+
+def get_reverse_complement(sequence):
+    """Return the reverse complement of the sequence."""
+    seq_obj = Seq(sequence)  # Create a Seq object from the sequence.
+    return str(seq_obj.reverse_complement())  # Return the reverse complement as a string.
+
+def main():
+    parser = ArgumentParser()  # Create argument parser.
+    parser.add_argument("-f", "--file", help="FASTA file", required=True)  # Specify FASTA file.
+    parser.add_argument("-l", "--length", type=int, default=100, help="Minimum ORF length in codons")  # Specify minimum length for ORFs.
+    parser.add_argument("-r", "--rbs_length", type=int, default=20, help="Length to scan upstream for RBS in bp")  # Specify upstream search length.
+    args = parser.parse_args()  # Parse command-line arguments.
+
+    sequences = get_sequences(args.file)  # Read sequences from the provided FASTA file.
+    
+    # Find ORFs in the original and reverse complement sequences.
+    all_proteins = set()  # Use a set to avoid duplicates.
+    for seq_id, sequence in sequences.items():
+        # Find ORFs in the original sequence.
+        orfs = find_orfs(sequence, args.length, args.rbs_length)  # Pass the min length and RBS length to the function.
+        all_proteins.update(orfs)  # Update the set of all proteins with found ORFs.
+        
+        # Get the reverse complement of the sequence.
+        rev_sequence = get_reverse_complement(sequence)  
+        rev_orfs = find_orfs(rev_sequence, args.length, args.rbs_length)  # Find ORFs in the reverse complement.
+        all_proteins.update(rev_orfs)  # Update the set with found ORFs from reverse complement.
+
+    # Output distinct protein strings.
+    for protein in all_proteins:
+        print(protein)  # Print each unique protein sequence.
+
+if __name__ == "__main__":
+    main()  # Call the main function to execute the program.
