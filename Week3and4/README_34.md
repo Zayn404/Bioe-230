@@ -217,6 +217,65 @@ def main():
 if __name__ == "__main__":
     main()  # Call the main function to execute the program.
 
+    [almualzm@login509-02-r Week3and4]$ emacs run_gene_finder.sh
+[almualzm@login509-02-r Week3and4]$ bash run_gene_finder.sh
+Processing ../ncbi_dataset/data/GCA_000007125.1/GCA_000007125.1_ASM712v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000007125.1/GCA_000007125.1_ASM712v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000008545.1/GCA_000008545.1_ASM854v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008545.1/GCA_000008545.1_ASM854v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000008565.1/GCA_000008565.1_ASM856v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008565.1/GCA_000008565.1_ASM856v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000008625.1/GCA_000008625.1_ASM862v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008625.1/GCA_000008625.1_ASM862v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000008725.1/GCA_000008725.1_ASM872v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008725.1/GCA_000008725.1_ASM872v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000007125.1/GCF_000007125.1_ASM712v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000007125.1/GCF_000007125.1_ASM712v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000008545.1/GCF_000008545.1_ASM854v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008545.1/GCF_000008545.1_ASM854v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000008565.1/GCF_000008565.1_ASM856v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008565.1/GCF_000008565.1_ASM856v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000008625.1/GCF_000008625.1_ASM862v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008625.1/GCF_000008625.1_ASM862v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000008725.1/GCF_000008725.1_ASM872v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008725.1/GCF_000008725.1_ASM872v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000006825.1/GCA_000006825.1_ASM682v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000006825.1/GCA_000006825.1_ASM682v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000006865.1/GCA_000006865.1_ASM686v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000006865.1/GCA_000006865.1_ASM686v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000008605.1/GCA_000008605.1_ASM860v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008605.1/GCA_000008605.1_ASM860v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000008785.1/GCA_000008785.1_ASM878v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008785.1/GCA_000008785.1_ASM878v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000006745.1/GCF_000006745.1_ASM674v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000006745.1/GCF_000006745.1_ASM674v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000006825.1/GCF_000006825.1_ASM682v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000006825.1/GCF_000006825.1_ASM682v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000006865.1/GCF_000006865.1_ASM686v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000006865.1/GCF_000006865.1_ASM686v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000008605.1/GCF_000008605.1_ASM860v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008605.1/GCF_000008605.1_ASM860v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000008785.1/GCF_000008785.1_ASM878v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008785.1/GCF_000008785.1_ASM878v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000008525.1/GCA_000008525.1_ASM852v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008525.1/GCA_000008525.1_ASM852v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000008745.1/GCA_000008745.1_ASM874v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008745.1/GCA_000008745.1_ASM874v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000027305.1/GCA_000027305.1_ASM2730v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000027305.1/GCA_000027305.1_ASM2730v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCA_000091085.2/GCA_000091085.2_ASM9108v2_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000091085.2/GCA_000091085.2_ASM9108v2_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000008525.1/GCF_000008525.1_ASM852v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008525.1/GCF_000008525.1_ASM852v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000008745.1/GCF_000008745.1_ASM874v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008745.1/GCF_000008745.1_ASM874v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000027305.1/GCF_000027305.1_ASM2730v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000027305.1/GCF_000027305.1_ASM2730v1_genomic_proteins.txt
+Processing ../ncbi_dataset/data/GCF_000091085.2/GCF_000091085.2_ASM9108v2_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000091085.2/GCF_000091085.2_ASM9108v2_genomic_proteins.txt
+
 ## Q6
 [almualzm@login509-02-l Week3and4]$ emacs gene_finder3.py
 #This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
@@ -300,3 +359,61 @@ def main():
 
 if __name__ == "__main__":
     main()  # Call the main function to execute the program.
+[almualzm@login509-02-r Week3and4]$ emacs run_ribosome.sh
+[almualzm@login509-02-r Week3and4]$ bash run_ribosome.sh
+Processing ../ncbi_dataset/data/GCA_000007125.1/GCA_000007125.1_ASM712v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000007125.1/GCA_000007125.1_ASM712v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000008545.1/GCA_000008545.1_ASM854v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008545.1/GCA_000008545.1_ASM854v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000008565.1/GCA_000008565.1_ASM856v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008565.1/GCA_000008565.1_ASM856v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000008625.1/GCA_000008625.1_ASM862v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008625.1/GCA_000008625.1_ASM862v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000008725.1/GCA_000008725.1_ASM872v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008725.1/GCA_000008725.1_ASM872v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000007125.1/GCF_000007125.1_ASM712v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000007125.1/GCF_000007125.1_ASM712v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000008545.1/GCF_000008545.1_ASM854v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008545.1/GCF_000008545.1_ASM854v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000008565.1/GCF_000008565.1_ASM856v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008565.1/GCF_000008565.1_ASM856v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000008625.1/GCF_000008625.1_ASM862v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008625.1/GCF_000008625.1_ASM862v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000008725.1/GCF_000008725.1_ASM872v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008725.1/GCF_000008725.1_ASM872v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000006825.1/GCA_000006825.1_ASM682v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000006825.1/GCA_000006825.1_ASM682v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000006865.1/GCA_000006865.1_ASM686v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000006865.1/GCA_000006865.1_ASM686v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000008605.1/GCA_000008605.1_ASM860v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008605.1/GCA_000008605.1_ASM860v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000008785.1/GCA_000008785.1_ASM878v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008785.1/GCA_000008785.1_ASM878v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000006745.1/GCF_000006745.1_ASM674v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000006745.1/GCF_000006745.1_ASM674v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000006825.1/GCF_000006825.1_ASM682v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000006825.1/GCF_000006825.1_ASM682v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000006865.1/GCF_000006865.1_ASM686v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000006865.1/GCF_000006865.1_ASM686v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000008605.1/GCF_000008605.1_ASM860v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008605.1/GCF_000008605.1_ASM860v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000008785.1/GCF_000008785.1_ASM878v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008785.1/GCF_000008785.1_ASM878v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000008525.1/GCA_000008525.1_ASM852v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008525.1/GCA_000008525.1_ASM852v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000008745.1/GCA_000008745.1_ASM874v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000008745.1/GCA_000008745.1_ASM874v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000027305.1/GCA_000027305.1_ASM2730v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000027305.1/GCA_000027305.1_ASM2730v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCA_000091085.2/GCA_000091085.2_ASM9108v2_genomic.fna
+Output saved to ../ncbi_dataset/data/GCA_000091085.2/GCA_000091085.2_ASM9108v2_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000008525.1/GCF_000008525.1_ASM852v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008525.1/GCF_000008525.1_ASM852v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000008745.1/GCF_000008745.1_ASM874v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000008745.1/GCF_000008745.1_ASM874v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000027305.1/GCF_000027305.1_ASM2730v1_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000027305.1/GCF_000027305.1_ASM2730v1_genomic_proteins3.txt
+Processing ../ncbi_dataset/data/GCF_000091085.2/GCF_000091085.2_ASM9108v2_genomic.fna
+Output saved to ../ncbi_dataset/data/GCF_000091085.2/GCF_000091085.2_ASM9108v2_genomic_proteins3.txt
