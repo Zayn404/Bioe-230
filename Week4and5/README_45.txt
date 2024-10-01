@@ -506,10 +506,20 @@ find ../ncbi_dataset/data/ -name "*.fna" -type f | while read -r fna_file; do
 done | sort -k2 -n | tail -n 1
 
 ## Question 4: ##
+<<<<<<< HEAD
+=======
+Prokka is very slow. Also, the output is smaller than we Prodgal was used
+# Prokka
+[almualzm@login509-02-r Week4and5]$ emacs Q4.sh
+>>>>>>> 28a8b147cdd93517c097b7136eb51161c7ae6e0c
 [almualzm@login509-02-r Week4and5]$ bash Q4.sh
 Loading module for Prokka
 Prokka 1.14.6 modules now loaded
 File: tmp/GCF_000091085.2_ASM9108v2_genomic.gff, CDS Count: 1052
+<<<<<<< HEAD
+=======
+# Prodigal
+>>>>>>> 28a8b147cdd93517c097b7136eb51161c7ae6e0c
 [almualzm@login509-02-r Week4and5]$ emacs Q4_prodigal.sh
 [almualzm@login509-02-r Week4and5]$ bash Q4_prodigal.sh
 Loading module for PRODIGAL v2.6.3
