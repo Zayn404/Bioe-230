@@ -1,4 +1,3 @@
-Shell :
 
 ## Q1 and Q2
  #This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
