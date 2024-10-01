@@ -1,7 +1,7 @@
 Shell :
 
 ## Q1 and Q2
- This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
+ #This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
 
 from argparse import ArgumentParser #Used to parse command-line arguments.
 from Bio import SeqIO #Used to read and write sequence data in various formats, including FASTA.
@@ -144,7 +144,7 @@ usage: git add [<options>] [--] <pathspec>...
 [almualzm@login509-02-l Week3and4]$ cp gene_finder1.py genefinder2.py
 [almualzm@login509-02-l Week3and4]$ emacs gene_finder2.py
 
-# This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
+#This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
 
 from argparse import ArgumentParser  # Used to parse command-line arguments.
 from Bio import SeqIO  # Used to read and write sequence data in various formats, including FASTA.
@@ -220,7 +220,7 @@ if __name__ == "__main__":
 
 ## Q6
 [almualzm@login509-02-l Week3and4]$ emacs gene_finder3.py
-# This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
+#This code was generated with the assistance of ChatGPT (version 3.5) and Yazeed Alroogi
 
 from argparse import ArgumentParser  # Used to parse command-line arguments.
 from Bio import SeqIO  # Used to read and write sequence data in various formats, including FASTA.
