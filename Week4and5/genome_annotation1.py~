@@ -1,0 +1,3 @@
+amino_seq = "KVRMFTSELDIMLSVNGPADQIKYFCRHWT"
+print(len(amino_seq))
+print(len(amino_seq)*3 + 3)

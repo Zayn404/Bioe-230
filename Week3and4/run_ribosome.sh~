@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Iterate over all .fna files in the specified directory
+for fna_file in ../ncbi_dataset/data/*.fna; do
+    echo "Processing $fna_file"
+    
+    # Run the gene_finder3.py script on each genome file
+    python gene_finder3.py -f "$fna_file" -l 100 -r 20 > "${fna_file%.fna}_proteins6.txt"
+    
+    echo "Results saved to ${fna_file%.fna}_proteins6.txt"
+done

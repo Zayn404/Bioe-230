@@ -1,0 +1,12 @@
+# Given amino acid sequence
+amin_seq = "KVRMFTSELDIMLSVNGPADQIKYFCRHWT*"
+
+# Calculate the number of amino acids excluding the stop codon
+num_amino_acids = len(amino_acid_sequence.replace('*', ''))
+
+# Calculate the total number of bases in the ORF (including the stop codon)
+total_bases = (num_amino_acids * 3) + 3  # Each amino acid is encoded by 3 bases, and the stop codon is also 3 bases
+
+# Display the results
+print(f"Number of amino acids (excluding stop codon): {num_amino_acids}")
+print(f"Total number of bases in the ORF (including stop codon): {total_bases}")
