@@ -511,12 +511,38 @@ done | sort -k2 -n | tail -n 1
 Prokka is very slow. Also, the output is smaller than we Prodgal was used
 # Prokka
 [almualzm@login509-02-r Week4and5]$ emacs Q4.sh
->>>>>>> 28a8b147cdd93517c097b7136eb51161c7ae6e0c
 [almualzm@login509-02-r Week4and5]$ bash Q4.sh
+mkdir: cannot create directory ‘tmp’: File exists
 Loading module for Prokka
 Prokka 1.14.6 modules now loaded
+File: tmp/GCA_000006745.1_ASM674v1_genomic.gff, CDS Count: 3589
+File: tmp/GCA_000006825.1_ASM682v1_genomic.gff, CDS Count: 2028
+File: tmp/GCA_000006865.1_ASM686v1_genomic.gff, CDS Count: 2383
+File: tmp/GCA_000007125.1_ASM712v1_genomic.gff, CDS Count: 3150
+File: tmp/GCA_000008525.1_ASM852v1_genomic.gff, CDS Count: 1577
+File: tmp/GCA_000008545.1_ASM854v1_genomic.gff, CDS Count: 1861
+File: tmp/GCA_000008565.1_ASM856v1_genomic.gff, CDS Count: 3245
+File: tmp/GCA_000008605.1_ASM860v1_genomic.gff, CDS Count: 1001
+File: tmp/GCA_000008625.1_ASM862v1_genomic.gff, CDS Count: 1771
+File: tmp/GCA_000008725.1_ASM872v1_genomic.gff, CDS Count: 892
+File: tmp/GCA_000008745.1_ASM874v1_genomic.gff, CDS Count: 1058
+File: tmp/GCA_000008785.1_ASM878v1_genomic.gff, CDS Count: 1504
+File: tmp/GCA_000027305.1_ASM2730v1_genomic.gff, CDS Count: 1748
+File: tmp/GCA_000091085.2_ASM9108v2_genomic.gff, CDS Count: 1056
+File: tmp/GCF_000006745.1_ASM674v1_genomic.gff, CDS Count: 3589
+File: tmp/GCF_000006825.1_ASM682v1_genomic.gff, CDS Count: 2028
+File: tmp/GCF_000006865.1_ASM686v1_genomic.gff, CDS Count: 2383
+File: tmp/GCF_000007125.1_ASM712v1_genomic.gff, CDS Count: 3150
+File: tmp/GCF_000008525.1_ASM852v1_genomic.gff, CDS Count: 1577
+File: tmp/GCF_000008545.1_ASM854v1_genomic.gff, CDS Count: 1861
+File: tmp/GCF_000008565.1_ASM856v1_genomic.gff, CDS Count: 3245
+File: tmp/GCF_000008605.1_ASM860v1_genomic.gff, CDS Count: 1001
+File: tmp/GCF_000008625.1_ASM862v1_genomic.gff, CDS Count: 1771
+File: tmp/GCF_000008725.1_ASM872v1_genomic.gff, CDS Count: 892
+File: tmp/GCF_000008745.1_ASM874v1_genomic.gff, CDS Count: 1058
+File: tmp/GCF_000008785.1_ASM878v1_genomic.gff, CDS Count: 1504
+File: tmp/GCF_000027305.1_ASM2730v1_genomic.gff, CDS Count: 1748
 File: tmp/GCF_000091085.2_ASM9108v2_genomic.gff, CDS Count: 1052
-<<<<<<< HEAD
 =======
 # Prodigal
 >>>>>>> 28a8b147cdd93517c097b7136eb51161c7ae6e0c

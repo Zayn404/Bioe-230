@@ -19,4 +19,8 @@ find ../ncbi_dataset/data/ -name "*.fna" -type f | while read -r fna_file; do
 
     # Print the GFF file path and the CDS count
     echo "File: $gff_file, CDS Count: $cds_count"
+<<<<<<< HEAD
 done | sort -k3 -n
+=======
+done | sort -k3 -n 
+>>>>>>> 4ba59630aaaeb3825c1854d0e155414519d7c9e6
